@@ -1,0 +1,103 @@
+/*
+#C6C5B9
+#4E6151
+#9CA4AC
+#C6C5B9
+*/
+
+/*
+font-family: 'Cardo', serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+main{
+
+    background-color: #accbe1;
+    color: #536b78;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    display: grid;
+    place-items: center;
+    
+
+}
+
+
+
+
+header{
+   
+    background-color: #accbe1;
+    position: sticky;
+    display: inline-block;
+    display: flex;
+    display: stretch;
+    padding: 5px;
+    margin: 5px; 
+    flex-direction: row;
+    justify-content: start;
+    border: 1px solid black;
+    flex-wrap: wrap;
+     
+}
+
+h1{
+
+    font-family: 'Quicksand', sans-serif;
+    background-color:#accbe1;
+    padding-right: 0em;
+    color: #15271d;
+    display: flex;
+    display: stretch;
+    padding: 5px;
+    margin: 5px; 
+    justify-content: start; 
+    
+}
+
+
+
+body{
+
+    background-color: #accbe1;
+    
+
+}
+
+p{
+   
+   font-family: 'Cardo', serif; 
+   text-align: left;
+   
+}
+
+a{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+nav{ 
+
+    position:sticky;
+    background-color: #accbe1;
+    display: start;
+    padding-right: 0rem;
+    
+    
+}
+
+a:visited {
+    color: blue;
+    text-decoration: underline overline #f314ce;
+    padding: 1rem;
+    margin: 1rem; 
+  }
+  
+  a:hover {
+	background: rgb(127, 121, 134);
+}
+
+
+
